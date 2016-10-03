@@ -9,6 +9,7 @@ It's a functioning prototype now with a lot of room for improvement but it seems
 - A single data connection at a time
 - Data transfer is assumed to be in binary mode (ascii setting is ignored)
 - Operation blocks the thread
+- No authentication support
 
 ## What is supported
 - Changing directories (cd/CWD)

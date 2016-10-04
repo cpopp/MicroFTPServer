@@ -39,7 +39,7 @@ def save_file_data(path, dataclient):
         chunk = dataclient.read(128)
         while len(chunk) > 0:
             file.write(chunk)
-            chunk = file.read(128)
+            chunk = dataclient.read(128)
 
 def get_absolute_path(cwd, payload):
     # if it doesn't start with / consider

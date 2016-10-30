@@ -4,6 +4,8 @@ I wanted a simple way of remotely managing files on my ESP8266 so I experimented
 
 It's a functioning prototype now with a lot of room for improvement but it seems to work fine with the standard mac FTP client and ftp:// access via Chrome.
 
+Check out an alternative FTP server that expanded quite a bit on this prototype [here](https://github.com/robert-hh/ESP8266-FTP-Server).
+
 ## Limitations
 - Passive mode only
 - A single data connection at a time
